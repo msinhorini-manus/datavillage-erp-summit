@@ -106,8 +106,8 @@
 
 
 ## Deploy e Integração
-- [ ] Criar repositório no GitHub
-- [ ] Fazer push do código para o GitHub
+- [x] Criar repositório no GitHub
+- [x] Fazer push do código para o GitHub
 - [ ] Conectar repositório com Vercel via MCP
 - [ ] Configurar variáveis de ambiente na Vercel
 - [ ] Fazer deploy na Vercel
