@@ -65,17 +65,41 @@
 - [x] Criar API/endpoints para CRUD de todas as seções
 - [ ] Criar página de login para administradores
 - [x] Criar dashboard administrativo
-- [ ] Criar CRUD para "Setor em Números"
-- [ ] Criar CRUD para "Tendências"
-- [ ] Criar CRUD para "ROI em Business Intelligence"
-- [ ] Criar CRUD para "BI por Setor da Economia"
-- [ ] Criar CRUD para "Desafios do Mercado"
-- [ ] Criar CRUD para "Projeções 2027"
-- [ ] Criar CRUD para Palestrantes
-- [ ] Criar CRUD para Sessões
-- [ ] Criar CRUD para Agenda do Evento
-- [ ] Criar CRUD para Expositores
-- [ ] Criar CRUD para Passes/Ingressos
-- [ ] Criar CRUD para FAQ
-- [ ] Criar CRUD para Patrocinadores
+- [x] Criar CRUD para "Setor em Números"
+- [x] Criar CRUD para "Tendências"
+- [x] Criar CRUD para "ROI em Business Intelligence"
+- [x] Criar CRUD para "BI por Setor da Economia"
+- [x] Criar CRUD para "Principais Desafios do Mercado"
+- [x] Criar CRUD para "Projeções para 2027"
+- [x] Criar CRUD para Palestrantes
+- [x] Criar CRUD para Sessões
+- [x] Criar CRUD para Agenda do Evento
+- [x] Criar CRUD para Expositores
+- [x] Criar CRUD para Passes/Ingressos
+- [x] Criar CRUD para FAQ
+- [x] Criar CRUD para Patrocinadores
 - [x] Integrar frontend com API para consumir dados dinâmicos
+
+
+## Novas Seções Solicitadas
+- [x] Criar seção "ROI em Business Intelligence" com layout escuro
+- [x] Adicionar benefícios de ROI (3 itens com ícones)
+- [x] Adicionar box "Investimento Global em BI" com valor e crescimento
+- [x] Criar seção "BI por Setor da Economia" completa
+- [x] Adicionar 6 cards de setores (Financeiro 95%, Varejo 87%, Manufatura 82%, Saúde 78%, Logística 74%, Imobiliário 69%)
+- [x] Criar seção "Principais Desafios do Mercado" com layout escuro
+- [x] Adicionar 4 cards de desafios com percentuais e barras de progresso
+- [x] Adicionar box vermelho "Oportunidade de Mercado"
+- [x] Criar seção "Sessões em Destaque" completa
+- [x] Adicionar cards de sessões com categorias coloridas (Business Intelligence azul, Data Analytics verde)
+- [x] Vincular sessões com palestrantes
+- [x] Criar seção "Agenda do Evento" com tabs
+- [x] Implementar tabs "17 de Março - Dia 1" e "18 de Março - Dia 2"
+- [x] Adicionar itens da agenda com horários, títulos, palestrantes, local e badges
+- [x] Criar seção "Expo & Showcase" completa
+- [x] Adicionar 4 cards de estatísticas da expo (50+ Expositores, 2000+ Visitantes, 100+ Demos, 24h Networking)
+- [x] Adicionar "Expositores em Destaque" (Microsoft, AWS, Tableau, etc)
+- [x] Atualizar schema do banco de dados com novas tabelas se necessário
+- [x] Adicionar endpoints da API para novas seções
+- [x] Criar páginas CMS para gerenciar ROI, Desafios e Expo
+- [x] Popular banco de dados com dados das novas seções

@@ -1,5 +1,11 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import RoiSection from "@/components/RoiSection";
+import BiSetorSection from "@/components/BiSetorSection";
+import DesafiosSection from "@/components/DesafiosSection";
+import SessoesSection from "@/components/SessoesSection";
+import AgendaSection from "@/components/AgendaSection";
+import ExpoSection from "@/components/ExpoSection";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { trpc } from "@/lib/trpc";
@@ -70,6 +76,15 @@ export default function Home() {
         </section>
       )}
 
+      {/* ROI em Business Intelligence */}
+      <RoiSection />
+
+      {/* BI por Setor da Economia */}
+      <BiSetorSection />
+
+      {/* Desafios do Mercado */}
+      <DesafiosSection />
+
       {/* Palestrantes */}
       {palestrantes && palestrantes.length > 0 && (
         <section className="py-20 bg-white">
@@ -98,6 +113,15 @@ export default function Home() {
           </div>
         </section>
       )}
+
+      {/* Sessões em Destaque */}
+      <SessoesSection />
+
+      {/* Agenda do Evento */}
+      <AgendaSection />
+
+      {/* Expo & Showcase */}
+      <ExpoSection />
 
       {/* Passes */}
       {passes && passes.length > 0 && (
