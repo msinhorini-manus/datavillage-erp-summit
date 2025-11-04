@@ -15,6 +15,11 @@ import AdminPalestrantes from "./pages/admin/Palestrantes";
 import AdminSessoes from "./pages/admin/Sessoes";
 import AdminAgendaEvento from "./pages/admin/AgendaEvento";
 import AdminExpositores from "./pages/admin/Expositores";
+import AdminAgenda from "./pages/admin/Agenda";
+import AdminPasses from "./pages/admin/Passes";
+import AdminFAQ from "./pages/admin/FAQ";
+import AdminPatrocinadores from "./pages/admin/Patrocinadores";
+import AdminProjecoes from "./pages/admin/Projecoes";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -31,6 +36,11 @@ function Router() {
       <Route path="/admin/sessoes" component={AdminSessoes} />
       <Route path="/admin/agenda-evento" component={AdminAgendaEvento} />
       <Route path="/admin/expositores" component={AdminExpositores} />
+      <Route path="/admin/agenda" component={AdminAgenda} />
+      <Route path="/admin/passes" component={AdminPasses} />
+      <Route path="/admin/faq" component={AdminFAQ} />
+      <Route path="/admin/patrocinadores" component={AdminPatrocinadores} />
+      <Route path="/admin/projecoes" component={AdminProjecoes} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
