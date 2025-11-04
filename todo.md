@@ -103,3 +103,14 @@
 - [x] Adicionar endpoints da API para novas seções
 - [x] Criar páginas CMS para gerenciar ROI, Desafios e Expo
 - [x] Popular banco de dados com dados das novas seções
+
+
+## Deploy e Integração
+- [ ] Criar repositório no GitHub
+- [ ] Fazer push do código para o GitHub
+- [ ] Conectar repositório com Vercel via MCP
+- [ ] Configurar variáveis de ambiente na Vercel
+- [ ] Fazer deploy na Vercel
+- [ ] Testar site público na Vercel
+- [ ] Testar API na Vercel
+- [ ] Testar CMS/Admin na Vercel
